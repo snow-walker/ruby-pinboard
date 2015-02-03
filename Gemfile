@@ -48,3 +48,5 @@ gem 'devise'
 gem 'friendly_id'
 
 gem 'rmagick'
+
+gem 'carrierwave'

@@ -1,6 +1,8 @@
 class Pin < ActiveRecord::Base
 	extend FriendlyId
-	fliendly_id :name, use: :slugged
+	friendly_id :name, use: :slugged
+
+	mount_uploader :image, ImageUploader
 
 	belongs_to :board
 end
